@@ -59,10 +59,6 @@ class _{{name.pascalCase()}}ScreenState extends State<_{{name.pascalCase()}}Scre
       }
     )
   );
-    return const Scaffold(
-      body: Center(
-        child: Text('{{name.pascalCase()}} Page'),
-      ),
-    );
+
   }
 }
